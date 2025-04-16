@@ -1,0 +1,36 @@
+/**
+*
+* ---------------------------------------------------------------------------
+*
+* Template Name: Zaleema - Creative App Landing Responsive HTML5 Templates
+* Template URL:	http://coderboys.net/zaleema
+* Author : themewarehouse
+* Description: This is a creative App Landing Responsive HTML5 Templates
+* Version : 1.0
+*
+* --------------------------------------------------------------------------- 
+*
+*/
+
+/* CSS files */
+
+/***** ----- bootstrap css ----- *****/
+@import url('css/bootstrap.min.css');
+/***** ----- font awesome css ----- *****/
+@import url('css/font-awesome.min.css');
+/***** ----- owl carousel css ----- *****/
+@import url('css/owl.carousel.min.css');
+/***** ----- normalize css ----- *****/
+@import url('css/normalize.css');
+/***** ----- hover css ----- *****/
+@import url('css/hover-min.css');
+/***** ----- wmBox css ----- *****/
+@import url('css/wmBox.css');
+/***** ----- jquery-ui css ----- *****/
+@import url('css/jquery-ui.css');
+/***** ----- lightbox css ----- *****/
+@import url('css/lightbox.min.css');
+/***** ----- main css ----- *****/
+@import url('css/main.css');
+/***** ----- responsive css ----- *****/
+@import url('css/responsive.css');

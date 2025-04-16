@@ -1,0 +1,611 @@
+/**
+*
+* ---------------------------------------------------------------------------
+*
+* Template Name: Zaleema - Creative App Landing Responsive HTML5 Templates
+* Template URL:	http://coderboys.net/zaleema
+* Author : themewarehouse
+* Description: This is a creative App Landing Responsive HTML5 Templates
+* Version : 1.0
+*
+* --------------------------------------------------------------------------- 
+*
+*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li {
+        padding: 20px 4px;
+    }
+    .single-service h3 {
+        font-size: 18px;
+    }
+    .about-content {
+        padding: 45px 0;
+    }
+    .phone-img {
+        width: 195px;
+    }
+    .screen-set {
+        height: 315px;
+        margin: 40px 0 43px;
+    }
+    .member-social-link a i.fa {
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+    }
+    .member-title h3 {
+        font-size: 14px;
+    }
+    .newsletter h2 {
+        font-size: 32px;
+    }
+    .price-table {
+        padding: 40px 20px;
+    }
+    .price-heading {
+        font-size: 32px;
+    }
+    .single-blog-overflow h2 a,
+    .single-blog-overflow p,
+    .single-blog-overflow ul li a {
+        font-size: 12px;
+    }
+}
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------   */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Menu area */
+    .navbar-header {
+        float: none !important;
+    }
+    nav.navbar {
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        width: 100%;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border: 0;
+        box-shadow: inset 0 1px 0 #D63138;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    ul.navbar-nav {
+        border: 0 none;
+        text-align: left;
+        width: 100%;
+        background-color: #fff;
+    }
+    .navbar-nav li {
+        display: block !important;
+        float: none;
+        padding: 0 !important;
+    }
+    ul.navbar-nav li a {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 20px !important;
+        display: block;
+        color: #000 !important;
+        font-weight: 600;
+    }
+    .main-menu ul.nav li a::before {
+        display: none;
+    }
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-nav > .active > a:hover {
+        background: -webkit-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -moz-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -ms-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        color: #fff !important;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        background: -webkit-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -moz-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -ms-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        color: #fff !important;
+    }
+    .navbar-default .navbar-nav > li > a:focus {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle {
+        background: -webkit-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -moz-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -ms-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        border-color: #fff;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .navbar-brand {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: none;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    }
+    .slider-content > h2 {
+        font-size: 28px;
+    }
+    .zaleema-btn {
+        padding: 10px 20px;
+    }
+    .section-title h1 {
+        font-size: 30px;
+    }
+    .single-service h3 {
+        font-size: 18px;
+    }
+    .single-service i.fa {
+        font-size: 30px;
+    }
+    .about-content {
+        padding: 0;
+    }
+    .about-content a.zaleema-btn {
+        padding: 8px 40px;
+        font-size: 12px;
+    }
+    .about-content a.zaleema-btn i.fa {
+        font-size: 14px;
+    }
+    .features-content {
+        text-align: center;
+    }
+    .feature-icon {
+        margin: 0 auto 20px;
+    }
+    .about-img,
+    .single-member,
+    .single-progress-dec {
+        margin-bottom: 30px;
+    }
+    .price-table {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .deal-content h1 {
+        font-size: 22px;
+    }
+    .deal-content a.zaleema-btn.none-border {
+        padding: 10px 20px;
+    }
+    .single-video h1,
+    .newsletter h2 {
+        font-size: 30px;
+    }
+    .single-progress-dec i.fa {
+        font-size: 40px;
+    }
+    .single-progress-dec > span {
+        font-size: 30px;
+    }
+    .short-info h2 {
+        font-size: 22px;
+    }
+    /*	recent post part end*/
+    .single-post-title {
+        padding: 50px 0;
+    }
+    .single-post-title > h1 {
+        font-size: 18px;
+    }
+    .blog-content > p,
+    blockquote,
+    .comment-content > p,
+    .author-content > p {
+        font-size: 12px;
+    }
+    .blog-post-content {
+        display: flow-root;
+    }
+    .main-blog-title,
+    .blog-post-date {
+        width: 100%;
+    }
+    .blog-post-date {
+        margin-top: 30px;
+    }
+    .author-content {
+        width: 100%;
+        padding: 50px 15px;
+    }
+    .reply-commnet-content {
+        padding-left: 50px;
+    }
+    .comment-content {
+        padding-left: 15px;
+    }
+    .comment-input-form,
+    .comment-textarea {
+        padding-right: 0;
+        width: 100%;
+    }
+    .comment-sub button {
+        margin-bottom: 30px;
+    }
+    .single-count {
+        padding: 10px 0;
+        width: 100px;
+        height: 100px;
+    }
+    .single-count span {
+        font-size: 50px;
+    }
+    .coming-seccessful-content h2 {
+        font-size: 30px;
+        margin-top: 40px !important;
+    }
+    .coming-seccessful-content h3 {
+        font-size: 30px;
+    }
+    .mockup-holder {
+        margin: 175px 0;
+    }
+}
+
+
+/*		Mobile Layout: 320px.
+------------------------------------------------------------   */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
+    .slider-content > h2 {
+        font-size: 20px;
+    }
+    .zaleema-btn {
+        padding: 8px 15px;
+    }
+    .logo h2 {
+        font-size: 22px;
+    }
+    /* Menu area */
+    .navbar-header {
+        float: none !important;
+    }
+    nav.navbar {
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        width: 100%;
+    }
+    .navbar-toggle {
+        display: block;
+        margin-top: 3px;
+    }
+    .navbar-collapse {
+        border: 0;
+        box-shadow: inset 0 1px 0 #D63138;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    ul.navbar-nav {
+        border: 0 none;
+        text-align: left;
+        width: 100%;
+        background-color: #fff;
+    }
+    .navbar-nav li {
+        display: block !important;
+        float: none;
+        padding: 0 !important;
+    }
+    ul.navbar-nav li a {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 20px !important;
+        display: block;
+        color: #000 !important;
+        font-weight: 600;
+    }
+    .main-menu ul.nav li a::before {
+        display: none;
+    }
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-nav > .active > a:hover {
+        background: -webkit-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -moz-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -ms-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        color: #fff !important;
+    }
+    .navbar-default .navbar-nav > li > a:hover {
+        background: -webkit-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -moz-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -ms-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        color: #fff !important;
+    }
+    .navbar-default .navbar-nav > li > a:focus {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle {
+        background: -webkit-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -moz-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        background: -ms-linear-gradient(-29deg, #c10f41 0px, #233b88 100%) !important;
+        border-color: #fff;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .navbar-brand {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: none;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    }
+    .slider-content {
+        padding: 140px 0 50px;
+    }
+    .phone-wraper {
+        margin: 0;
+    }
+    .phone-wraper {
+        float: none;
+        margin: 0 auto;
+    }
+    .screen {
+        left: 12.4%;
+        right: 11.5%;
+    }
+    .slider-wraper .owl-dots {
+        bottom: -21%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .section-title h1 {
+        font-size: 24px;
+    }
+    .single-service h3 {
+        font-size: 18px;
+    }
+    .about-content {
+        padding: 30px 0 0;
+    }
+    .about-content a.zaleema-btn {
+        padding: 8px 40px;
+        font-size: 12px;
+    }
+    .about-content a.zaleema-btn i.fa {
+        font-size: 14px;
+    }
+    .features-content {
+        text-align: center;
+    }
+    .feature-icon {
+        margin: 0 auto 20px;
+    }
+    .mockup-holder {
+        margin-bottom: 70px;
+    }
+    .screen-set {
+        height: 387px;
+        margin: 49px auto 55px;
+        position: relative;
+        width: 219px;
+    }
+    .deal-content h1 {
+        font-size: 18px;
+    }
+    .deal-content a.zaleema-btn.none-border {
+        padding: 10px 20px;
+    }
+    .about-img {
+        text-align: center;
+    }
+    .single-video h1 {
+        font-size: 26px;
+    }
+    .video-btn {
+        height: 50px;
+        width: 50px;
+    }
+    .single-video a i.fa {
+        font-size: 26px;
+    }
+    .single-member {
+        margin-bottom: 30px;
+    }
+    .newsletter {
+        text-align: center;
+    }
+    .newsletter h2 {
+        font-size: 20px;
+    }
+    .form-control {
+        font-size: 12px;
+    }
+    .form-newsletter button {
+        width: 110px;
+    }
+    .features-content h3 {
+        font-size: 18px;
+    }
+    .price-heading > h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .price-heading {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .price-table {
+        margin-bottom: 30px;
+    }
+    .single-progress-dec i.fa {
+        font-size: 30px;
+    }
+    .single-progress-dec > span {
+        font-size: 26px;
+    }
+    .single-progress-dec {
+        margin-bottom: 30px;
+    }
+    .single-review {
+        padding: 50px 35px;
+    }
+    .single-review h4 {
+        font-size: 18px;
+    }
+    .faq-left {
+        margin-bottom: 30px;
+    }
+    .ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-icons.ui-sortable-handle {
+        text-align: center;
+    }
+    .ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-icons.ui-sortable-handle {
+        padding: 20px 30px;
+    }
+    .ui-accordion-header-icon {
+        position: absolute;
+        left: 18px;
+    }
+    .contact-details li {
+        padding: 0 36px 8px;
+    }
+    .contact-details li i.fa {
+        font-size: 20px;
+    }
+    .short-info h2 {
+        font-size: 18px;
+    }
+    #scrollUp {
+        bottom: 60px;
+    }
+    .widget-title,
+    .widget-search {
+        text-align: center;
+    }
+    .widget-search {
+        margin-top: 30px;
+    }
+    /*	recent post part end*/
+    .single-post-title {
+        padding: 50px 0;
+    }
+    .single-post-title > h1 {
+        font-size: 18px;
+    }
+    .blog-content > p,
+    blockquote,
+    .comment-content > p,
+    .author-content > p {
+        font-size: 12px;
+    }
+    .blog-post-content {
+        display: flow-root;
+    }
+    .main-blog-title,
+    .blog-post-date {
+        text-align: center;
+        width: 100%;
+    }
+    .blog-post-date {
+        margin-top: 30px;
+    }
+    .author-content {
+        width: 100%;
+        padding: 50px 15px;
+    }
+    .blog-comment-wraper > h3 {
+        font-size: 25px;
+    }
+    .reply-commnet-content {
+        padding-left: 50px;
+    }
+    .comment-content {
+        padding-left: 15px;
+    }
+    .comment-input-form,
+    .comment-textarea {
+        padding-right: 0;
+        width: 100%;
+    }
+    .mail-seccessful-content h3 {
+        font-size: 30px;
+    }
+    .coming-seccessful-content h2 {
+        font-size: 30px;
+        margin-top: 40px !important;
+    }
+    .coming-seccessful-content h3 {
+        font-size: 30px;
+    }
+    .error-content h4 {
+        font-size: 30px;
+    }
+}
+
+
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------------------  */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .single-slider {
+        width: 64%;
+        left: 60px;
+        position: relative;
+        z-index: -1;
+    }
+    .ui-accordion-header-icon {
+        position: relative;
+        left: 0;
+    }
+    .ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-icons.ui-sortable-handle {
+        text-align: left;
+    }
+    .ui-accordion-header.ui-corner-top.ui-state-default.ui-accordion-icons.ui-sortable-handle {
+        padding: 20px 30px;
+    }
+    .single-count {
+        display: block;
+        margin: 0 auto 30px;
+    }
+    .single-count {
+        margin: 0 auto;
+    }
+    .single-count:last-child {
+        margin-bottom: 40px;
+    }
+}
